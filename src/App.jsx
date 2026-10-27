@@ -29,7 +29,7 @@ async function joinGroup() {
 
     timeoutId = setTimeout(() => {
       window.location.assign(data.url);
-    }, 400);
+    }, 120);
   } catch (error) {
     if (cancelled) return;
 
